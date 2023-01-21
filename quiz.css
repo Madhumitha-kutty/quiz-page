@@ -1,0 +1,121 @@
+/* :root{
+    --hue-netural:200;
+    --hue-wrong:0;
+    --hue-correct:145;
+}
+
+body{
+    --hue:var(var(--hue-netural));
+    padding: 0;
+    margin: 0;
+    display:flex;
+    width: 100vw;
+    height: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+
+}
+body:correct{
+    --hue:var(var(--hue-correct));
+
+}
+body:wrong{
+    --hue:var(var(--hue-wrong));
+
+}
+.container
+{
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn
+{
+    --hue:var(--hue-netural);
+    border: 1px solid hsl((var(--hue),100%,30%);
+    background-color: cyan;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+.btn.hover
+{
+    border-color: black;
+}
+.start-btn,
+.next-btn
+{
+    font-size: 1.5ren;
+    font-weight: bold;
+    padding: 10px  20px;
+    cursor:pointer;
+
+}
+.controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide
+{
+    background-color: blue;
+} */
+*{
+    font-family:cursive;
+    }
+    .container{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: aqua;
+        box-sizing: border-box;
+        border: 3px solid black;
+    }
+    .hide{
+        padding: 20px 20px 10px 20px;
+    }
+    .next-btn{
+        margin: 10px 0px 20px 0px;
+    }
+    .btn{
+        width: 100%;
+        margin: 10px;
+        position: relative;
+        left: -10px;
+        border: 1PX solid BLACK;
+        background: rgb(39, 90, 231);
+        color: aliceblue;
+    }
+    .nav-btn{
+    border: 1px solid rgb(18, 146, 1) ;
+    background-color:rgb(18, 146, 1);
+    color: aliceblue;
+    width: 35%;
+    padding: 4px 0px;
+    font-size:13px;
+    }
+    .btn:hover{
+        background-color: rgb(9, 65, 168);
+        color: rgb(255, 255, 255);
+        border: 1px solid rgb(248, 254, 255);
+    }
+    .nav-btn:hover{
+        background-color: greenyellow;
+        color: black;
+    }
+    
+    
